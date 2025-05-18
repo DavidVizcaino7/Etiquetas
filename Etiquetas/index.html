@@ -1,0 +1,112 @@
+<!DOCTYPE html> <!-- Define que el documento es HTML5 -->
+<html lang="es"> <!-- Lenguaje del documento en español -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres -->
+    <title>Etiquetas</title> <!-- Título de la pestaña del navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Optimiza el sitio para móviles -->
+    <meta name="description" content="Ejemplo de uso de etiquetas HTML básicas."> <!-- Breve descripción del sitio -->
+    <meta name="author" content="David"> <!-- Autor del documento -->
+</head>
+
+<body> <!-- Cuerpo del documento -->
+
+    <div align="center"> <!-- Contenedor alineado al centro -->
+        <header> <!-- Encabezado principal del sitio -->
+            <h1>Etiquetas en HTML </h1> <!-- Título principal -->
+            <p><em>HTML </em></p> <!-- Texto en cursiva -->
+        </header>
+    </div>
+
+    <div align="center"> <!-- Otro contenedor centrado -->
+        <nav> <!-- Sección de navegación -->
+            <ul> <!-- Lista desordenada -->
+                <li><a href="#">Inicio</a></li> <!-- Enlace de navegación -->
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main> <!-- Contenido principal de la página -->
+        <article> <!-- Artículo independiente -->
+            <h2>Sobre mí</h2> <!-- Título de segundo nivel -->
+            <p>Me llamo <mark>David</mark> y soy estudiante de desarrollo web.</p> <!-- Texto con parte resaltada -->
+            <p>Vivo en <abbr title="Ciudad de Ecuador">Ecuador</abbr> y me apasiona el diseño y la programación.</p> <!-- Abreviación con descripción -->
+
+            <blockquote cite="https://ejemplo.com/frase"> <!-- Cita en bloque con fuente -->
+                "El conocimiento es poder."
+            </blockquote>
+            <p><cite>— Francis Bacon</cite></p> <!-- Cita de autor -->
+        </article>
+
+        <section> <!-- Sección de contenido -->
+            <h2>Habilidades</h2>
+            <dl> <!-- Lista de definiciones -->
+                <dt>HTML</dt> <!-- Término -->
+                <dd>Lenguaje de marcado para estructurar páginas web.</dd> <!-- Definición -->
+                <dt>CSS</dt>
+                <dd>Estilos visuales para sitios web.</dd>
+            </dl>
+        </section>
+
+        <aside> <!-- Contenido relacionado pero no principal -->
+            <h3>Frase del día</h3>
+            <p><q>Aprender es crecer.</q></p> <!-- Cita corta -->
+        </aside>
+
+        <hr> <!-- Línea divisoria horizontal -->
+
+        <section>
+            <h2>Tabla de Proyectos</h2>
+            <table border="1"> <!-- Tabla con borde -->
+                <caption>Proyectos Realizados</caption> <!-- Título de la tabla -->
+                <thead> <!-- Encabezado de la tabla -->
+                    <tr> <!-- Fila -->
+                        <th>Nombre</th> <!-- Celda de encabezado -->
+                        <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody> <!-- Cuerpo de la tabla -->
+                    <tr>
+                        <td>Mi primer sitio</td> <!-- Celda de datos -->
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Blog personal</td>
+                        <td>2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer> <!-- Pie de página -->
+        <address> <!-- Información de contacto -->
+            correoelectronica@gmai.com
+        </address>
+        <p><small>© 2025 Etiquetas</small></p> <!-- Texto pequeño para derechos de autor -->
+    </footer>
+
+    <hr>
+
+    <div align="center"> <!-- Formulario básico alineado -->
+        <form> <!-- Inicio del formulario -->
+            <label for="1">Nombre:</label> <!-- Etiqueta para el campo de entrada -->
+            <input type="text" id="1" name="nombre"> <!-- Campo de texto -->
+            <br>
+            <label for="2">Apellido:</label>
+            <input type="text" id="2" name="apellido">
+            <br>
+            <label for="3">Curso:</label>
+            <input type="text" id="3" name="curso">
+            <br>
+            <button type="submit">INGRESAR</button> <!-- Botón para enviar -->
+        </form>
+    </div>
+
+    
+
+</body>
+
+</html>
